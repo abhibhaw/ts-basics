@@ -1,4 +1,4 @@
-name: Woofy
+name: ECHO
 on: pull_request_target
 jobs:
   build:
@@ -6,4 +6,4 @@ jobs:
     steps:      
       - name: ECHO
         run: echo github.event.review.state >> a.txt
-        run: cat a.txt
+      - run: cat a.txt
