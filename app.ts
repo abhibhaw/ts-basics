@@ -1,4 +1,6 @@
-function add(n1: number, n2: number) {
+
+
+function add(n1: string, n2: string) {
     return n1 + n2;
 }
 
